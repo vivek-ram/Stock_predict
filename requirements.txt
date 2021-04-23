@@ -1,0 +1,5 @@
+pandas
+yahoo_fin
+numpy==1.19.5
+flask
+gunicorn

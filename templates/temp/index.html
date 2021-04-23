@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Book Number{{id}} </title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+
+
+    
+
+    <div class="ui center aligned segment">
+ 		 <h1 class="ui center aligned header">Stock Market Prediction</h1>
+	</div>
+ 	<form method="POST">
+	  <label for="fname">Ticker:</label>
+	  <input type="text" id="fname" name="fname"><br><br>
+      <label for="fdays">Prediction days:</label>
+      <input type="text" id="fdays" name="fdays"><br><br>
+      <label for="fhold">How many shares Holding:</label>
+	  <input type="text" id="fhold" name="fhold"><br><br>
+	  <label for="fshare">Cost/share:</label>
+	  <input type="text" id="fshare" name="fshare"><br><br>
+    <button type='submit'class="ui inverted green button">Predict</button>
+    <input type="reset" class="ui inverted green button" value="Reset">
+
+
+	</form>
+    {{ id }}
+
+    <p>{{ temp }}</p>
+    
+
+
+	
+
+
+
+    </body>
+</html>
+
+
+
